@@ -1,0 +1,86 @@
+*{
+    background-color: rgb(210, 62, 92);
+}
+.login-page{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form{
+    background-color: rgb(210, 62, 92);
+    width: 300px;
+    padding: 2rem;
+    border-radius: 8px;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.form-conatiner{
+    padding: 2rem;
+    text-align: left;
+    width: 280px;
+}
+.inp{
+    font-size: 20px;
+    font-weight: 600;
+}
+.gender{
+    font-size: 20px;
+    font-weight: 600;
+}
+.inp input{
+    width: 100%;
+    height: 22px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+.gender select{
+    width: 100%;
+    height: 22px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+.submit-button{
+    width: 100%;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: rgb(177, 11, 11);
+    color: white;
+    cursor: pointer;
+}
+.lang fieldset{
+    border: none;
+}
+.lang legend{
+    font-size: 20px;
+    font-weight: 600;
+}
+.lang-opt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.error-msg{
+    color: chartreuse;
+    font-size: 20px;
+}
+.close-btn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.close-btn button{
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}

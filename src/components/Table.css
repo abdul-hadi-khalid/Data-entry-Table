@@ -1,0 +1,52 @@
+.table-container{
+    width: 1349px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-box{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+}
+.main-h{
+    background-color: gray;
+}
+.data-flex{
+    display: flex;
+    height: 100%;
+    background-color: white;
+    border: 1px solid rgb(70, 68, 68);
+}
+.data{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    
+}
+.ht h2{
+    font-size: 20px;
+    background-color: rgb(160, 157, 157);
+}
+.heading-tab{
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.ht{
+    width: 20%;
+    height: 100%;
+}
+.data p{
+    text-align: center;
+    background-color: white;
+}
+.email p{
+    font-size: 14px;
+}
+.list-d{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
